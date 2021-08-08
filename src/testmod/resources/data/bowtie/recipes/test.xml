@@ -1,0 +1,19 @@
+<recipe>
+    <type>minecraft:crafting_shaped</type>
+    <pattern>
+        <line>  P</line>
+        <line> PS</line>
+        <line>P S</line>
+    </pattern>
+    <key>
+        <P>
+            <item>minecraft:paper</item>
+        </P>
+        <S>
+            <item>minecraft:string</item>
+        </S>
+    </key>
+    <result>
+        <item>minecraft:name_tag</item>
+    </result>
+</recipe>

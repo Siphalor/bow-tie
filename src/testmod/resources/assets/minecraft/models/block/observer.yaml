@@ -1,0 +1,42 @@
+parent: block/block
+textures:
+  bowtie:   bowtie:icon
+  bottom:   block/observer_back
+  side:     block/observer_side
+  top:      block/observer_top
+  front:    block/observer_front
+  particle: block/observer_front
+elements:
+  - from: [ 5, -1.25, -0.01]
+    to:   [11,  4.75,  0.99]
+    faces:
+      north:
+        uv: [0, 0, 16, 16]
+        texture: "#bowtie"
+  - from: [ 0,  0,  0]
+    to:   [16, 16, 16]
+    faces:
+      north:
+        uv: [0, 0, 16, 16]
+        texture: "#front"
+        cullface: north
+      east:
+        uv: [0, 0, 16, 16]
+        texture: "#side"
+        cullface: east
+      south:
+        uv: [0, 0, 16, 16]
+        texture: "#bottom"
+        cullface: south
+      west:
+        uv: [0, 0, 16, 16]
+        texture: "#side"
+        cullface: west
+      up:
+        uv: [0, 0, 16, 16]
+        texture: "#top"
+        cullface: up
+      down:
+        uv: [0, 0, 16, 16]
+        texture: "#top"
+        cullface: down

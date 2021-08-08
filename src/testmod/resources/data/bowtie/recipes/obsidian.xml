@@ -1,0 +1,14 @@
+<recipe>
+    <type>minecraft:crafting_shapeless</type>
+    <ingredients>
+        <ingredient>
+            <item>minecraft:lava_bucket</item>
+        </ingredient>
+        <ingredient>
+            <item>minecraft:water_bucket</item>
+        </ingredient>
+    </ingredients>
+    <result>
+        <item>minecraft:obsidian</item>
+    </result>
+</recipe>
