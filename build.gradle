@@ -145,7 +145,7 @@ if (project.hasProperty("siphalorCurseForgeApi")) {
 	curseforge {
 		apiKey project.siphalorCurseForgeApi
 		project {
-			id = ""
+			id = "513898"
 			releaseType = "release"
 			changelogType = "markdown"
 			changelog = getChangelog()
@@ -172,7 +172,7 @@ if (project.hasProperty("siphalorModrinthApi")) {
 		dependsOn(build)
 
 		token = project.siphalorModrinthApi
-		projectId = ""
+		projectId = "A0bpnHwe"
 		versionNumber = version
 		versionName = "[${project.mod_mc_version_specifier}] ${project.mod_version}"
 		changelog = getChangelog()
