@@ -1,5 +1,9 @@
 # Bow Tie
 
+
+[![curseforge downloads](http://cf.way2muchnoise.eu/full_bow-tie_downloads.svg)](https://minecraft.curseforge.com/projects/bow-tie)
+[![curseforge mc versions](http://cf.way2muchnoise.eu/versions/bow-tie.svg)](https://minecraft.curseforge.com/projects/bow-tie)
+
 ![logo](logo.png?raw=true)
 
 > Did you ever get annoyed by not being able to write comments in your Minecraft JSON files?
