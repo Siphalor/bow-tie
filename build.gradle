@@ -45,10 +45,11 @@ dependencies {
 	include(modImplementation("de.siphalor.tweed4:tweed4-data-gson-$minecraft_major_version:1+"))
 	include(modImplementation("de.siphalor.tweed4:tweed4-data-jankson-$minecraft_major_version:1+"))
 	include(modImplementation("de.siphalor.tweed4:tweed4-data-xml-$minecraft_major_version:1.0.0"))
-	include(modImplementation("de.siphalor.tweed4:tweed4-data-yaml-$minecraft_major_version:1.0.0-dev.1"))
+	include(modImplementation("de.siphalor.tweed4:tweed4-data-yaml-$minecraft_major_version:1.0.1"))
 
 	modRuntime("com.github.astei:lazydfu:master-SNAPSHOT")
 
+	//testmodImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 	testmodImplementation sourceSets.main.output
 }
 

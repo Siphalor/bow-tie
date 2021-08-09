@@ -21,18 +21,15 @@ import de.siphalor.tweed4.data.DataValue;
 import de.siphalor.tweed4.data.gson.GsonSerializer;
 import de.siphalor.tweed4.data.gson.GsonValue;
 import net.fabricmc.api.ModInitializer;
-
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.block.Blocks;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.resource.*;
+import net.minecraft.resource.Resource;
+import net.minecraft.resource.ResourceImpl;
+import net.minecraft.resource.ResourceManager;
 import net.minecraft.util.Identifier;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

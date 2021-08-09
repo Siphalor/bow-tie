@@ -82,8 +82,8 @@ public class NamespaceResourceManagerMixin {
 	@Inject(
 			method = "getAllResources",
 			at = @At(
-					value = "INVOKE_ASSIGN",
-					target = "Ljava/util/Iterator;next()Ljava/lang/Object;"
+					value = "INVOKE",
+					target = "Lnet/minecraft/resource/ResourcePack;contains(Lnet/minecraft/resource/ResourceType;Lnet/minecraft/util/Identifier;)Z"
 			),
 			locals = LocalCapture.CAPTURE_FAILHARD
 	)
